@@ -1,0 +1,140 @@
+/* ----------------------------------------------------
+	You can put your custom css code here:
+-------------------------------------------------------*/
+
+
+.main__menu > li:hover > a{
+  color: #fffb04;
+  background-color: #000;
+  padding: 10px;
+  /* border-radius: 12px; */
+}
+.main__menu > li{
+  padding: 8px;
+  margin: 8px;
+}
+.main__menu li {
+  margin: 0 20px;
+}
+.main__menu > li > a {
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  background-color: rgb(255, 230, 0);
+}
+.slider__activation__wrap .owl-nav div {
+  background: rgb(255, 230, 0) none repeat scroll 0 0;
+
+}
+.cr__btn a {
+  background: rgb(255, 230, 0) none repeat scroll 0 0;
+}
+.single_slide{
+  background-color: #000;
+}
+.slider__inner{
+  color: #fff;
+}
+.ptb--100 { padding: 60px 0 };
+.px-12{
+  margin-left: 20px;
+}
+.sub-menu-1{
+  display: none;
+
+}
+.sub-menu-2{
+  display:block;
+}
+.main-menu-1 ul li:hover .sub-menu-1{
+  display: block;
+  position:absolute;
+  background:black;
+  margin-top:10px ;
+  margin-left: -15px;
+}
+.main-menu-1 ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+
+}
+.main-menu-1 ul li:hover .sub-menu-1 ul li{
+  width: 100px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+
+
+}
+.main-menu-1 ul li:hover .sub-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+.main-menu-1 ul li:hover .sub-menu-1 ul li a:hover{
+  color: #fffb04;
+}
+.main-menu-1 ul li:hover .sub-menu-1 ul li a{
+  color: #fff;
+}
+.main-menu-1 > li:hover > a{
+  color: #fffb04;
+}
+
+
+.header__search a {
+  padding-right: 10px;
+  position: relative;
+  margin-right: 20px;
+}
+.header__search a::before {
+  background: #898989;
+  content: "";
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+  width: 2px;
+}
+
+
+
+
+
+/* --------------------------------features-categories----------------- */
+
+
+.features-categories{
+  margin: 30px 0;
+}
+.features-categories img{
+  width: 60%;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.features-categories img:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
